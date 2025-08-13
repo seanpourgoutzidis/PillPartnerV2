@@ -403,7 +403,7 @@ void setup(){
       state.morningCheck = true;
       state.afternoonCheck = false;
       state.nightCheck = false;
-    } else if (timeInfo.tm_hour < NIGHT_CHECK_HOUR || true) {
+    } else if (timeInfo.tm_hour < NIGHT_CHECK_HOUR) {
       state.morningCheck = true;
       state.afternoonCheck = true;
       state.nightCheck = false;
